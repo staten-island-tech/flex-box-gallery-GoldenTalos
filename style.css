@@ -1,0 +1,18 @@
+html,
+body,
+* {
+  padding: 0;
+  mmargin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.parent {
+  font-size: 30px;
+  display: flex;
+  width: 80vw;
+}
+
+.child {
+  border: 1px solid red;
+}
