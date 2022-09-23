@@ -2,11 +2,15 @@ html,
 body,
 * {
   padding: 0;
-  mmargin: 0;
+  margin: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 
+h1 {
+  color: #d3e5f3;
+  font-size: 50px;
+  text-align: center;
+}
 .parent {
   font-size: 30px;
   display: flex;
