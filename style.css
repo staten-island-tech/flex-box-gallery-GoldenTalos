@@ -10,6 +10,7 @@ body,
     ),
     url(./images/ina.jpg);
   background-size: 1920px 968px;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -29,8 +30,16 @@ h3 {
   font-size: 30px;
   display: flex;
   width: 80vw;
+  margin: 0 auto;
+  margin-top: 100px;
+  justify-content: space-around;
 }
 
-.child {
-  border: 1px solid red;
+.characters {
+  border: 1px solid #93dbdc;
+  width: 20%;
+}
+
+.images {
+  width: 200px;
 }
