@@ -4,18 +4,14 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.178),
-      rgba(255, 255, 255, 0.178)
-    ),
-    url(./images/ina.jpg);
+  background: #c0c7cd;
   background-size: 1920px 968px;
-  background-repeat: no-repeat;
   text-align: center;
 }
 
 h1 {
-  color: #d3e5f3;
+  color: rgb(124, 58, 20);
+  background-color: #f5f5dc;
   font-size: 50px;
   text-align: center;
   margin-top: 50px;
@@ -34,14 +30,16 @@ h3 {
   margin: 0 auto;
   margin-top: 100px;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .characters {
   background: rgba(255, 255, 255, 0);
-  border: 1px solid #93dbdc;
-  width: 30%;
+  border: 10px solid #6da9aa;
+  width: 32%;
   height: 500px;
-  color: #18e3e1;
+  color: #00ffc8;
+  font-weight: bold;
 }
 
 .images {
