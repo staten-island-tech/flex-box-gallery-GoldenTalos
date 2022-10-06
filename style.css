@@ -1,24 +1,25 @@
-html,
-body,
-* {
+body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: #c0c7cd;
-  background-size: 1920px 968px;
+  background-color: #c98e57;
   text-align: center;
 }
 
 h1 {
-  color: rgb(124, 58, 20);
-  background-color: #f5f5dc;
+  color: rgb(73, 36, 14);
+  background-color: #af8c70;
   font-size: 50px;
   text-align: center;
-  margin-top: 50px;
+  width: 650px;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-family: "Alkalami", serif;
 }
 
 h3 {
-  background: #627ad2bb;
+  background: #cfaa8c;
   text-align: center;
   width: 300px;
   margin: 0 auto;
@@ -26,25 +27,27 @@ h3 {
 .parent {
   font-size: 30px;
   display: flex;
-  width: 95vw;
+  width: 85vw;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .characters {
-  background: rgba(255, 255, 255, 0);
-  border: 10px solid #6da9aa;
-  width: 32%;
-  height: 500px;
-  color: #00ffc8;
+  background: #d8b88e;
+  border: 15px solid #96683e;
+  width: 30%;
+  height: 400px;
+  color: #885c3f;
   font-weight: bold;
+  box-shadow: 6px 12px 10px rgba(71, 69, 69, 0.623);
+  font-family: "Alkalami", serif;
 }
 
 .images {
   margin: 0 auto;
-  margin-top: 100px;
-  width: 500px;
+  margin-top: 30px;
+  width: 480px;
   text-align: center;
 }
