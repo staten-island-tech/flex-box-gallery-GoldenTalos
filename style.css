@@ -53,6 +53,10 @@ h3 {
   text-align: center;
 }
 
+.link:hover {
+  color: rgb(187, 84, 36);
+}
+
 @media screen and (max-width: 600px) {
   .parent {
     flex-direction: column;
