@@ -11,7 +11,7 @@ h1 {
   background-color: #af8c70;
   font-size: 50px;
   text-align: center;
-  width: 650px;
+  width: 550px;
   height: 70px;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -27,7 +27,7 @@ h3 {
 .parent {
   font-size: 30px;
   display: flex;
-  width: 85vw;
+  width: 95vw;
   margin: 0 auto;
   margin-top: 50px;
   justify-content: space-around;
@@ -38,16 +38,34 @@ h3 {
   background: #d8b88e;
   border: 15px solid #96683e;
   width: 30%;
-  height: 400px;
+  height: 100%;
   color: #885c3f;
   font-weight: bold;
   box-shadow: 6px 12px 10px rgba(71, 69, 69, 0.623);
   font-family: "Alkalami", serif;
+  margin-bottom: 50px;
 }
 
 .images {
   margin: 0 auto;
   margin-top: 30px;
-  width: 480px;
+  width: 100%;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .parent {
+    flex-direction: column;
+  }
+  .characters {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .parent {
+    flex-direction: row;
+  }
+  .characters {
+    width: 100%;
+  }
 }
