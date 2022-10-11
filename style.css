@@ -38,22 +38,28 @@ h3 {
   background: #d8b88e;
   border: 15px solid #96683e;
   width: 30%;
-  height: 100%;
   color: #885c3f;
   font-weight: bold;
   box-shadow: 6px 12px 10px rgba(71, 69, 69, 0.623);
   font-family: "Alkalami", serif;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  border-radius: 5px;
 }
 
 .images {
   margin: 0 auto;
-  margin-top: 30px;
   width: 100%;
   text-align: center;
 }
 
-.link:hover {
+.button {
+  color: #926342;
+  font-size: 20px;
+  background: #c08e6a9a;
+  border: border: 15px solid #69462f;
+}
+
+.button:hover {
   color: rgb(187, 84, 36);
 }
 
