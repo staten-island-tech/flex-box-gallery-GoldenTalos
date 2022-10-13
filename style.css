@@ -59,13 +59,35 @@ h3 {
   border: 2px solid #8a5c3e;
   border-radius: 5px;
   padding: 5px;
+  text-shadow: 1px 1px 1px #000;
+  box-shadow: 6px 6px 6px rgba(71, 69, 69, 0.623);
 }
 
 .button:hover {
-  color: rgb(187, 84, 36);
+  color: rgb(158, 102, 76);
+  background-color: #d6b2979a;
 }
 
-@media screen and (max-width: 600px) {
+.button:active {
+  transform: translateY(4px);
+}
+
+.button-2:hover {
+  transform: scale(1.2)
+}
+
+.button-3:hover {
+  transform: scale(.9)
+}
+
+.button-4:hover {
+  letter-spacing: 5px;
+}
+
+.button-5::after {
+ 
+
+@media screen and {max-width: 600px) {
   .parent {
     flex-direction: column;
   }
@@ -73,7 +95,17 @@ h3 {
     width: 100%;
   }
 }
+  
+
 @media screen and (max-width: 900px) {
+  .parent {
+    flex-direction: row;
+  }
+  .characters {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
   .parent {
     flex-direction: row;
   }
