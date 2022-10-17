@@ -63,6 +63,7 @@ h3 {
   padding: 5px;
   text-shadow: 1px 1px 1px #000;
   box-shadow: 6px 6px 6px rgba(71, 69, 69, 0.623);
+  transition-duration: 1s;
 }
 
 .button:hover {
