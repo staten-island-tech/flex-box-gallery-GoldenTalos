@@ -85,7 +85,6 @@ h3 {
 .button-2:after {
   top: -100%;
   left: auto;
-  right: auto;
   height: 25px;
   width: 140px;
   position: absolute;
