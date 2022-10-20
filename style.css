@@ -60,8 +60,8 @@ h3 {
   background: #c08e6a9a;
   border: 2px solid #8a5c3e;
   border-radius: 5px;
-  padding: 5px;
-  box-shadow: 6px 6px 6px rgba(71, 69, 69, 0.623);
+  padding: 4px;
+  box-shadow: 3px 3px 3px rgba(71, 69, 69, 0.623);
   transition-duration: 1s;
 }
 
@@ -84,14 +84,14 @@ h3 {
 
 .button-2:after {
   top: -100%;
-  left: 0px;
+  left: auto;
+  right: auto;
   height: 25px;
-  width: 145px;
-  text-align: center;
+  width: 140px;
   position: absolute;
   background: #c08e6a9a;
   padding: 4px;
-  border: 2px solid #483426;
+  border: 2px solid #8a5c3e;
   border-radius: 5px;
   content: 'Click';
   color:rgb(73, 36, 14);
