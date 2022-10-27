@@ -46,6 +46,7 @@ h3 {
   font-family: "Alkalami", serif;
   margin-bottom: 40px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .images {
@@ -179,6 +180,9 @@ h3 {
   .characters {
     width: 100%;
   }
+  .h1 {
+    font-size: 100%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -188,6 +192,9 @@ h3 {
   .characters {
     width: 100%;
   }
+  .h1 {
+    font-size: 100%;
+  }
 }
 @media screen and (max-width: 1200px) {
   .parent {
@@ -195,5 +202,8 @@ h3 {
   }
   .characters {
     width: 100%;
+  }
+  .h1 {
+    font-size: 100%;
   }
 }
